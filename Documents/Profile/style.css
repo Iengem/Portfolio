@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'arial';
+    font-family: Arial, Helvetica, sans-serif;
 }
 section{
     background-image: url(Backgrounds/pexels-uzunov-rostislav-5011647.jpg);
@@ -11,16 +11,14 @@ section{
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
-    overflow-x: hidden;
     border-bottom: 1px solid cyan;
 }
 nav{
     display: flex;
     gap: 15vw;
-    margin-left: 30px;
-    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 35px;
     align-items: center;
-    width: 100%;
 }
 nav h1{
     font-size: 36px;
@@ -56,7 +54,8 @@ span{
 .hero{
     position: relative;
     top: 100px;
-    left: 200px;
+    left: 180px;
+    width: 700px;
     display: flex;
     gap: 50px;
 }
@@ -74,13 +73,12 @@ span{
 .name{
     font-size: 30px;
 }
-.pic{
-    position: relative;
-}
 .me{
-    width: 310px;
+    width: 330px;
     border:2px solid royalblue;
     border-radius: 50%;
+    position: relative;
+    bottom: 20px;
 }
 .bodysec{
     background-image: url(Backgrounds/pexels-uzunov-rostislav-5011647.jpg);
@@ -133,7 +131,7 @@ span{
 }
 .author{
     color: black;
-    margin-left: 80px;
+    margin-left: 90px;
     line-height: 40px;
     font-weight: 100;
     font-weight: 100;
@@ -159,9 +157,15 @@ span{
 }
 .body1{
     background-image: url(Backgrounds/pexels-uzunov-rostislav-5011647.jpg);
-    height: 100vh;
+    height: 120vh;
     padding: 100px;
     padding-top: 150px;
+}
+.body1 .school{
+    line-height: 50px;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px auto;
 }
 .body1 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -169,7 +173,33 @@ span{
     color: white;
     text-align: center;
 }
+.body1 a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.body1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 40px;
+    width: 860px;
+    margin: 40px auto;
+}
+.body1 a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: .5s;
+}
 .background{
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body1 h4 span{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.body1 h4{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: center;
 }
