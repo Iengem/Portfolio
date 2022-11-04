@@ -351,6 +351,131 @@ footer{
     line-height: 19px;
     font-weight: 400;
 }
+.back:hover{
+    background-color: rgb(68, 87, 110);
+}
 .about{
-    
+    background-color: rgb(35,47,62);
+    display: grid;
+    grid-template-rows: repeat(1,fr);
+    padding-left: 150px;
+    padding-top: 40px;
+    height: 75vh;
+}
+.aboutcont{
+    border-bottom: 1px solid rgb(132,134,136);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 55vh;
+}
+.abouttext p:nth-child(1){
+    font-size: 16px;
+    line-height: 16.8px;
+    font-weight: 700;
+    color: white;
+}
+.abouttext p{
+    font-size: 14px;
+    color: rgb(221, 221, 221);
+    padding: 5px;
+}
+.lastportion{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 5px;
+}
+.minilogo{
+    width: 80px;
+    height: 45px;
+    position: relative;
+    right: 50px;
+}
+.united{
+    display: flex;
+    gap: 5px;
+}
+.lastportion p, .united{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    border: 1px solid rgb(132,134,136);
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.lastportion h2{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.bottompage{
+    height: 80vh;
+    background-color: rgb(19,26,34);
+}
+.services h2{
+    text-transform: capitalize;
+    color: rgb(221,221,221);
+    font-size: 11px;
+    line-height: 12.55px;
+    font-weight: 400;
+    padding: 2px;
+}
+.services p{
+    text-transform: capitalize;
+    color:rgb(153,153,153);
+    line-height: 11px;
+    font-size: 10px;
+    font-weight: 400;
+    width: 80px;
+    padding: 2px;
+}
+.services1 h2{
+    text-transform: capitalize;
+    color: rgb(221,221,221);
+    font-size: 11px;
+    line-height: 12.55px;
+    font-weight: 400;
+    padding: 2px;
+}
+.services1 p{
+    text-transform: capitalize;
+    color:rgb(153,153,153);
+    line-height: 11px;
+    font-size: 10px;
+    font-weight: 400;
+    width: 80px;
+    padding: 2px;
+}
+.services1{
+    grid-column: 2/ span 1;
+}
+.servicesection{
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: repeat(4, 80px);
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 25px;
+}
+.copyright p{
+    color: rgb(221, 221, 221);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.copyright p:hover, .services p:hover, .services1 p:hover{
+    text-decoration: underline;
+}
+.conditions{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
