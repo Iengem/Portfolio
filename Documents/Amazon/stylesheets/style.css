@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'amazon';
+    src: url(Amazon\ Ember.ttf) format('truetype');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'amazon';
+    color: white;
+}
+nav{
+    background-color: rgb(19,25,33);
+    height: 10vh;
+    max-width: 100vw;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.location{
+    height: 30px;
+    width: 23px;
+}
+.deliver{
+    display: flex;
+}
+.delivertext p{
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(204,204,204);
+    font-weight: 400;
+}
+.delivertext h6{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar select{
+    color: rgb(85,85,85);
+    width: 50px;
+    display: block;
+    padding: 2px;
+    font-size: 13px;
+    background-color: rgb(243,243,243);
+    height: 47px;
+    line-height: 35px;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+    left: 4px;
+}
+.searchbar select:focus-within{
+    width: fit-content;
+}
+.searchbar input{
+    width: 600px;
+    line-height: 43px;
+}
+.search{
+    height: 46px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    right: 1px;
+    bottom: px;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+}
+.searchbar option{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.lang p{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.langpic{
+    height: 20px;
+    width: 30px;
+}
+.norm{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.bold{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.belownav{
+    background-color: rgb(35,47,62);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 5vh;
+    padding-left: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.belownav .menu p{
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 700;
+}
+.belownav p{
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 400;
+}
+.hero{
+    background-image: url(61DUO0NqyyL._SX3000_.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
